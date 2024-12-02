@@ -1,0 +1,426 @@
+C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ENDFF.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ENDFF.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ENDFF
+-- Compiling architecture struct of ENDFF
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/TransmitterTB.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/TransmitterTB.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity TransmitterTB
+-- Compiling architecture Behavioral of TransmitterTB
+** Error: (vcom-11) Could not find work.transmitter.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/TransmitterTB.vhd(32): (vcom-1195) Cannot find expanded name "work.Transmitter".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/TransmitterTB.vhd(32): Unknown expanded name.
+** Error: (vcom-11) Could not find work.endff.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/TransmitterTB.vhd(35): (vcom-1195) Cannot find expanded name "work.ENDFF".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/TransmitterTB.vhd(35): Unknown expanded name.
+** Error: (vcom-11) Could not find work.mux2to1.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/TransmitterTB.vhd(38): (vcom-1195) Cannot find expanded name "work.MUX2to1".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/TransmitterTB.vhd(38): Unknown expanded name.
+** Note: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/TransmitterTB.vhd(42): VHDL Compiler exiting
+
+} {8.0 9.0 10.0 12.0 13.0 15.0 16.0 17.0} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverTB.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverTB.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ReceiverTB
+-- Compiling architecture Behavioral of ReceiverTB
+-- Loading entity Receiver
+** Error: (vcom-11) Could not find work.endff.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverTB.vhd(29): (vcom-1195) Cannot find expanded name "work.ENDFF".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverTB.vhd(29): Unknown expanded name.
+** Note: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverTB.vhd(33): VHDL Compiler exiting
+
+} {9.0 10.0 11.0 12.0} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/trafficLightController.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/trafficLightController.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity traffic_con
+-- Compiling architecture rtl of traffic_con
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/reg_8b_shr.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/reg_8b_shr.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg_rsh_8b
+-- Compiling architecture rtl of reg_rsh_8b
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/inc_8b.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/inc_8b.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity inc_8b
+-- Compiling architecture rtl of inc_8b
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/FullAdder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/FullAdder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FullAdder
+-- Compiling architecture rtl of FullAdder
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/parity_dec.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/parity_dec.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity parity_gen
+-- Compiling architecture rtl of parity_gen
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/eight_one_8b_mux.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/eight_one_8b_mux.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity eight_one_8b_mux
+-- Compiling architecture rtl of eight_one_8b_mux
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ripple_add_8b.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ripple_add_8b.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity EightBitRippleAdder
+-- Compiling architecture rtl of EightBitRippleAdder
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/uart_fsm_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/uart_fsm_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity UartFSM_TB
+-- Compiling architecture tb_arch of UartFSM_TB
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/four_one_8b_mux.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/four_one_8b_mux.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FourToOne8BitMux
+-- Compiling architecture rtl of FourToOne8BitMux
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/BCDDecoder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/BCDDecoder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BCDDecoder
+-- Compiling architecture rtl of BCDDecoder
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/add_sub_4b.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/add_sub_4b.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FourBitAdderSubtractor
+-- Compiling architecture rtl of FourBitAdderSubtractor
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/baud_rate_gen.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/baud_rate_gen.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity baud_rate_gen
+-- Compiling architecture rtl of baud_rate_gen
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/uart_fsm.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/uart_fsm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity UartFSM
+-- Compiling architecture rtl of UartFSM
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/dec_7seg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/dec_7seg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dec_7seg
+-- Compiling architecture rtl of dec_7seg
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/color_dec.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/color_dec.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity color_dec
+-- Compiling architecture rtl of color_dec
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/2To1_4BitMux.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/2To1_4BitMux.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity two_one_4b_mux
+-- Compiling architecture Behavioral of two_one_4b_mux
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/HalfAdder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/HalfAdder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity HalfAdder
+-- Compiling architecture rtl of HalfAdder
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/eight_one_mux.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/eight_one_mux.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity eight_one_mux
+-- Compiling architecture rtl of eight_one_mux
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/tdxFF.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/tdxFF.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tdxFF
+-- Compiling architecture rtl of tdxFF
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/comp_4b.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/comp_4b.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity four_b_comp
+-- Compiling architecture rtl of four_b_comp
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/Receiver.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/Receiver.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Receiver
+-- Compiling architecture struct of Receiver
+-- Loading entity Reg_8b
+** Error: (vcom-11) Could not find work.in_arshiftreg_8b.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/Receiver.vhd(22): (vcom-1195) Cannot find expanded name "work.IN_ARShiftReg_8b".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/Receiver.vhd(22): Unknown expanded name.
+-- Loading entity ReceiverController
+** Note: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/Receiver.vhd(28): VHDL Compiler exiting
+
+} {9.0 10.0 11.0 12.0} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/four_b_inc.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/four_b_inc.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity four_b_inc
+-- Compiling architecture rtl of four_b_inc
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/enARdFF_2_resetON.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/enARdFF_2_resetON.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity enARdFF_2_resetON
+-- Compiling architecture rtl of enARdFF_2_resetON
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/eight_b_reg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/eight_b_reg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity eight_b_reg
+-- Compiling architecture rtl of eight_b_reg
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/Reg_8b.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/Reg_8b.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Reg_8b
+-- Compiling architecture struct of Reg_8b
+** Error: (vcom-11) Could not find work.endff.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/Reg_8b.vhd(17): (vcom-1195) Cannot find expanded name "work.ENDFF".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/Reg_8b.vhd(17): Unknown expanded name.
+** Error: (vcom-11) Could not find work.endff.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/Reg_8b.vhd(19): (vcom-1195) Cannot find expanded name "work.ENDFF".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/Reg_8b.vhd(19): Unknown expanded name.
+** Error: (vcom-11) Could not find work.endff.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/Reg_8b.vhd(21): (vcom-1195) Cannot find expanded name "work.ENDFF".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/Reg_8b.vhd(21): Unknown expanded name.
+** Error: (vcom-11) Could not find work.endff.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/Reg_8b.vhd(23): (vcom-1195) Cannot find expanded name "work.ENDFF".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/Reg_8b.vhd(23): Unknown expanded name.
+** Error: (vcom-11) Could not find work.endff.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/Reg_8b.vhd(25): (vcom-1195) Cannot find expanded name "work.ENDFF".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/Reg_8b.vhd(25): Unknown expanded name.
+** Error: (vcom-11) Could not find work.endff.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/Reg_8b.vhd(27): (vcom-1195) Cannot find expanded name "work.ENDFF".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/Reg_8b.vhd(27): Unknown expanded name.
+** Error: (vcom-11) Could not find work.endff.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/Reg_8b.vhd(29): (vcom-1195) Cannot find expanded name "work.ENDFF".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/Reg_8b.vhd(29): Unknown expanded name.
+** Error: (vcom-11) Could not find work.endff.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/Reg_8b.vhd(31): (vcom-1195) Cannot find expanded name "work.ENDFF".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/Reg_8b.vhd(31): Unknown expanded name.
+** Note: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/Reg_8b.vhd(34): VHDL Compiler exiting
+
+} {8.0 9.0 10.0 12.0 13.0 15.0 16.0 18.0 19.0 21.0 22.0 24.0 25.0 27.0 28.0 30.0 31.0 32.0} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/reg_8b.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/reg_8b.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Reg_8b
+-- Compiling architecture struct of Reg_8b
+** Error: (vcom-11) Could not find work.endff.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/reg_8b.vhd(17): (vcom-1195) Cannot find expanded name "work.ENDFF".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/reg_8b.vhd(17): Unknown expanded name.
+** Error: (vcom-11) Could not find work.endff.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/reg_8b.vhd(19): (vcom-1195) Cannot find expanded name "work.ENDFF".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/reg_8b.vhd(19): Unknown expanded name.
+** Error: (vcom-11) Could not find work.endff.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/reg_8b.vhd(21): (vcom-1195) Cannot find expanded name "work.ENDFF".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/reg_8b.vhd(21): Unknown expanded name.
+** Error: (vcom-11) Could not find work.endff.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/reg_8b.vhd(23): (vcom-1195) Cannot find expanded name "work.ENDFF".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/reg_8b.vhd(23): Unknown expanded name.
+** Error: (vcom-11) Could not find work.endff.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/reg_8b.vhd(25): (vcom-1195) Cannot find expanded name "work.ENDFF".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/reg_8b.vhd(25): Unknown expanded name.
+** Error: (vcom-11) Could not find work.endff.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/reg_8b.vhd(27): (vcom-1195) Cannot find expanded name "work.ENDFF".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/reg_8b.vhd(27): Unknown expanded name.
+** Error: (vcom-11) Could not find work.endff.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/reg_8b.vhd(29): (vcom-1195) Cannot find expanded name "work.ENDFF".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/reg_8b.vhd(29): Unknown expanded name.
+** Error: (vcom-11) Could not find work.endff.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/reg_8b.vhd(31): (vcom-1195) Cannot find expanded name "work.ENDFF".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/reg_8b.vhd(31): Unknown expanded name.
+** Note: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/reg_8b.vhd(34): VHDL Compiler exiting
+
+} {8.0 9.0 10.0 12.0 13.0 15.0 16.0 18.0 19.0 21.0 22.0 24.0 25.0 27.0 28.0 30.0 31.0 32.0} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/rx_fsm.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\togoo\Desktop\School\Classes\CEG3155\ProjectV5\rx_fsm.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ReceiverFSM
+-- Compiling architecture rtl of ReceiverFSM
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/enARdFF_2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/enARdFF_2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity enARdFF_2
+-- Compiling architecture rtl of enARdFF_2
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/debouncer.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/debouncer.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity debouncer
+-- Compiling architecture fsm of debouncer
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/2To1BitMux.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/2To1BitMux.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_2to1_top
+-- Compiling architecture Behavioral of mux_2to1_top
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/four_b_ripple_add.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/four_b_ripple_add.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FourBitRippleAdder
+-- Compiling architecture rtl of FourBitRippleAdder
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/comp_8b.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/comp_8b.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity eight_b_comp
+-- Compiling architecture rtl of eight_b_comp
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/tx_fsm.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/tx_fsm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tx_fsm
+-- Compiling architecture rtl of tx_fsm
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ReceiverController
+-- Compiling architecture struct of ReceiverController
+** Error: (vcom-11) Could not find work.samplecounter.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(39): (vcom-1195) Cannot find expanded name "work.SampleCounter".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(39): Unknown expanded name.
+** Error: (vcom-11) Could not find work.clkcounter.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(42): (vcom-1195) Cannot find expanded name "work.CLKCounter".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(42): Unknown expanded name.
+** Error: (vcom-11) Could not find work.dff_2.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(45): (vcom-1195) Cannot find expanded name "work.dFF_2".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(45): Unknown expanded name.
+** Error: (vcom-11) Could not find work.dff_2.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(47): (vcom-1195) Cannot find expanded name "work.dFF_2".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(47): Unknown expanded name.
+** Error: (vcom-11) Could not find work.dff_2.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(49): (vcom-1195) Cannot find expanded name "work.dFF_2".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(49): Unknown expanded name.
+** Error: (vcom-11) Could not find work.dff_2.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(51): (vcom-1195) Cannot find expanded name "work.dFF_2".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(51): Unknown expanded name.
+** Error: (vcom-11) Could not find work.dff_2.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(53): (vcom-1195) Cannot find expanded name "work.dFF_2".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(53): Unknown expanded name.
+** Error: (vcom-11) Could not find work.dff_2.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(55): (vcom-1195) Cannot find expanded name "work.dFF_2".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(55): Unknown expanded name.
+** Error: (vcom-11) Could not find work.dff_2.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(57): (vcom-1195) Cannot find expanded name "work.dFF_2".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(57): Unknown expanded name.
+** Error: (vcom-11) Could not find work.dff_2.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(59): (vcom-1195) Cannot find expanded name "work.dFF_2".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(59): Unknown expanded name.
+** Error: (vcom-11) Could not find work.dff_2.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(61): (vcom-1195) Cannot find expanded name "work.dFF_2".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(61): Unknown expanded name.
+** Error: (vcom-11) Could not find work.dff_2.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(63): (vcom-1195) Cannot find expanded name "work.dFF_2".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(63): Unknown expanded name.
+** Error: (vcom-11) Could not find work.dff_2.
+** Error (suppressible): C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(65): (vcom-1195) Cannot find expanded name "work.dFF_2".
+** Error: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(65): Unknown expanded name.
+** Note: C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/ReceiverController.vhd(86): VHDL Compiler exiting
+
+} {8.0 9.0 10.0 12.0 13.0 15.0 16.0 18.0 19.0 21.0 22.0 24.0 25.0 27.0 28.0 30.0 31.0 33.0 34.0 36.0 37.0 39.0 40.0 42.0 43.0 45.0 46.0 47.0} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/fsm_controller.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/fsm_controller.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FSMController
+-- Compiling architecture rtl of FSMController
+
+} {} {}} C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/comp_1b.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/togoo/Desktop/School/Classes/CEG3155/ProjectV5/comp_1b.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity one_b_comp
+-- Compiling architecture rtl of one_b_comp
+
+} {} {}}
